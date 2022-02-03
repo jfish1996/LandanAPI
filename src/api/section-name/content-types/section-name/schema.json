@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_names",
+  "info": {
+    "singularName": "section-name",
+    "pluralName": "section-names",
+    "displayName": "Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}
