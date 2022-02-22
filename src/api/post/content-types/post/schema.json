@@ -31,9 +31,6 @@
     "Date": {
       "type": "date"
     },
-    "FullDescription": {
-      "type": "text"
-    },
     "likes": {
       "type": "biginteger",
       "required": false,
@@ -54,6 +51,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-name.section-name"
+    },
+    "FullDescription": {
+      "type": "richtext"
     }
   }
 }
