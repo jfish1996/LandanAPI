@@ -15,9 +15,6 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
-      "type": "string"
-    },
     "Date": {
       "type": "date"
     },
@@ -32,12 +29,15 @@
       ]
     },
     "Price": {
-      "type": "biginteger"
+      "type": "decimal"
     },
     "section": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-name.section-name"
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }
