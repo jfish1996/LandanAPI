@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "Title": {
       "type": "string"
     },
     "Date": {
       "type": "date"
     },
-    "Image": {
+    "Img": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -36,7 +36,7 @@
       "relation": "oneToOne",
       "target": "api::section-name.section-name"
     },
-    "Description": {
+    "FullDescription": {
       "type": "richtext"
     }
   }
