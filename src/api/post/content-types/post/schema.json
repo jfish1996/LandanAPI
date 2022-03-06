@@ -54,6 +54,9 @@
     },
     "FullDescription": {
       "type": "richtext"
+    },
+    "HomepageHero": {
+      "type": "boolean"
     }
   }
 }
