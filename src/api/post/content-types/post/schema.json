@@ -47,16 +47,17 @@
       "relation": "oneToOne",
       "target": "api::sub-section.sub-section"
     },
-    "section": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::section-name.section-name"
-    },
     "FullDescription": {
       "type": "richtext"
     },
     "HomepageHero": {
       "type": "boolean"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::section-name.section-name",
+      "inversedBy": "posts"
     }
   }
 }

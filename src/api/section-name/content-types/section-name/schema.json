@@ -4,7 +4,8 @@
   "info": {
     "singularName": "section-name",
     "pluralName": "section-names",
-    "displayName": "Section"
+    "displayName": "Section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,17 @@
   "attributes": {
     "SectionName": {
       "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "section"
     }
   }
 }
