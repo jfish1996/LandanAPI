@@ -25,6 +25,12 @@
       "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "section"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "section"
     }
   }
 }

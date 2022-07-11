@@ -31,11 +31,6 @@
     "Price": {
       "type": "decimal"
     },
-    "section": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::section-name.section-name"
-    },
     "FullDescription": {
       "type": "richtext"
     },
@@ -43,6 +38,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::section-name.section-name",
       "inversedBy": "products"
     }
   }
