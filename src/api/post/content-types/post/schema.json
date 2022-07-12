@@ -58,6 +58,9 @@
       "relation": "manyToOne",
       "target": "api::section-name.section-name",
       "inversedBy": "posts"
+    },
+    "aspectRatio": {
+      "type": "string"
     }
   }
 }
