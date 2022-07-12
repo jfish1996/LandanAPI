@@ -4,7 +4,8 @@
   "info": {
     "singularName": "section-header",
     "pluralName": "section-headers",
-    "displayName": "Section Header"
+    "displayName": "Section Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,11 @@
     },
     "Description": {
       "type": "richtext"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-name.section-name"
     }
   }
 }
