@@ -26,6 +26,11 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "category"
+    },
+    "section_header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-header.section-header"
     }
   }
 }
