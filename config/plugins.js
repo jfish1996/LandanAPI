@@ -14,14 +14,24 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // ...
-});
-
-module.exports = () => ({
   graphql: {
     enabled: true,
     config: {
+      endpoint: "/graphql",
+      introspection: true,
       playgroundAlways: true,
     },
   },
+  // ...
 });
+
+// module.exports = () => ({
+//   graphql: {
+//     enabled: true,
+//     config: {
+//       endpoint: '/graphql',
+//       introspection : true,
+//       playgroundAlways: true,
+//     },
+//   },
+// });
