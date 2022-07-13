@@ -17,8 +17,6 @@ module.exports = ({ env }) => ({
   graphql: {
     enabled: true,
     config: {
-      endpoint: "/graphql",
-      introspection: true,
       playgroundAlways: true,
     },
   },
