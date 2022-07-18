@@ -61,6 +61,9 @@
     },
     "aspectRatio": {
       "type": "string"
+    },
+    "farts": {
+      "type": "biginteger"
     }
   }
 }
