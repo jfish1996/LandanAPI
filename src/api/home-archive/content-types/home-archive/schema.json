@@ -15,7 +15,7 @@
     "Title": {
       "type": "string"
     },
-    "Description": {
+    "FullDescription": {
       "type": "string"
     },
     "Img": {
@@ -33,6 +33,15 @@
     },
     "HomepageHero": {
       "type": "boolean"
+    },
+    "likes": {
+      "type": "biginteger"
+    },
+    "farts": {
+      "type": "biginteger"
+    },
+    "aspectRatio": {
+      "type": "string"
     }
   }
 }
