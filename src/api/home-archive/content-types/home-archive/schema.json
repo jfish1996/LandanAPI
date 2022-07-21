@@ -15,9 +15,6 @@
     "Title": {
       "type": "string"
     },
-    "FullDescription": {
-      "type": "string"
-    },
     "Img": {
       "type": "media",
       "multiple": true,
@@ -42,6 +39,9 @@
     },
     "aspectRatio": {
       "type": "string"
+    },
+    "FullDescription": {
+      "type": "richtext"
     }
   }
 }
