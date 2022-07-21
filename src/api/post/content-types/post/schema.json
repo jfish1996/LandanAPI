@@ -64,6 +64,12 @@
     },
     "farts": {
       "type": "biginteger"
+    },
+    "home_archive": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::home-archive.home-archive",
+      "inversedBy": "posts"
     }
   }
 }

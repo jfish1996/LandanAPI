@@ -12,36 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "home_archive"
+    },
+    "title": {
       "type": "string"
-    },
-    "Img": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "Date": {
-      "type": "date"
-    },
-    "HomepageHero": {
-      "type": "boolean"
-    },
-    "likes": {
-      "type": "biginteger"
-    },
-    "farts": {
-      "type": "biginteger"
-    },
-    "aspectRatio": {
-      "type": "string"
-    },
-    "FullDescription": {
-      "type": "richtext"
     }
   }
 }
