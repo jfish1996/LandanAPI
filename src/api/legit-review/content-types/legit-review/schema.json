@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legit_reviews",
+  "info": {
+    "singularName": "legit-review",
+    "pluralName": "legit-reviews",
+    "displayName": "Legit Review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "review": {
+      "type": "richtext"
+    }
+  }
+}
