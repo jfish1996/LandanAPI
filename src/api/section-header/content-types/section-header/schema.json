@@ -24,6 +24,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-name.section-name"
+    },
+    "home_archive": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-archive.home-archive"
     }
   }
 }

@@ -20,6 +20,11 @@
     },
     "title": {
       "type": "string"
+    },
+    "section_header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-header.section-header"
     }
   }
 }
