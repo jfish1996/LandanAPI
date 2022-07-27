@@ -31,6 +31,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-header.section-header"
+    },
+    "dataName": {
+      "type": "string",
+      "required": true
     }
   }
 }
