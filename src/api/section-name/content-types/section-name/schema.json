@@ -15,11 +15,6 @@
     "SectionName": {
       "type": "string"
     },
-    "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
-    },
     "posts": {
       "type": "relation",
       "relation": "oneToMany",
@@ -39,6 +34,12 @@
     },
     "dataName": {
       "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "sections"
     }
   }
 }

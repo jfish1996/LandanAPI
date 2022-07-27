@@ -35,6 +35,12 @@
     "dataName": {
       "type": "string",
       "required": true
+    },
+    "sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-name.section-name",
+      "mappedBy": "category"
     }
   }
 }
