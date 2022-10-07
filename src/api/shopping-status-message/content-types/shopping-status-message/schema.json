@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shopping-status-message",
     "pluralName": "shopping-status-messages",
-    "displayName": "Shopping Status Message"
+    "displayName": "Shopping Status Message",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "message": {
       "type": "richtext"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
