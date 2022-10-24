@@ -45,6 +45,9 @@
       "relation": "manyToOne",
       "target": "api::section-name.section-name",
       "inversedBy": "products"
+    },
+    "aspectRatio": {
+      "type": "string"
     }
   }
 }
